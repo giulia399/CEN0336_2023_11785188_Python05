@@ -19,9 +19,6 @@ if fav_thing in fav_dict:  # Verificar se a chave existe
 # Mostra o novo valor do organismo
 print(f"O novo organismo favorito é: {fav_dict[fav_thing]}")
 
-# Imprimindo todo o dicionário
-print("\nConteúdo do dicionário:")
-for key, value in fav_dict.items():
-    print(f"{key}: {value}")
+
 
 
