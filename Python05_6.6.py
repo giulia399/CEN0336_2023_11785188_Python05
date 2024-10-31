@@ -20,4 +20,9 @@ print ("As chaves de comando:", list(fav_dict.keys()))
 
 fav_thing = input("Escolher uma chave do dicionário: ")
 
+# Verificando se a chave existe e imprimindo o valor correspondente
+if fav_thing in fav_dict:
+    print(f"O valor de '{fav_thing}' é: {fav_dict[fav_thing]}")
+else:
+    print("Chave não encontrada.")
 
