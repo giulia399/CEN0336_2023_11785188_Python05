@@ -18,3 +18,11 @@ if fav_thing in fav_dict:  # Verificar se a chave existe
 
 # Mostra o novo valor do organismo
 print(f"O novo organismo favorito é: {fav_dict[fav_thing]}")
+
+fav_thing = input("Digite a chave que você deseja alterar: ")
+if fav_thing in fav_dict:
+    novo_valor = input(f"Digite o novo valor para {fav_thing}: ")
+    fav_dict[fav_thing] = novo_valor
+    print(f"Valor atualizado para {fav_thing}: {fav_dict[fav_thing]}")
+else:
+    print("Chave não encontrada.")
